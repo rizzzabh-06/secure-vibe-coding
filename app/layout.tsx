@@ -17,6 +17,14 @@ export const metadata: Metadata = {
     "Semgrep",
     "Trivy",
   ],
+  icons: {
+    icon: [
+      { url: "/icon.svg", type: "image/svg+xml" },
+      { url: "/favicon.ico", sizes: "32x32" },
+    ],
+    shortcut: "/favicon.ico",
+    apple: "/apple-icon.png",
+  },
 }
 
 export const viewport: Viewport = {
